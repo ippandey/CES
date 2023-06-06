@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/images/logo.png" />
+    <link rel="stylesheet" href="newindex.css" class="css" />
+    <title>Welcome to CES</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="nav">
+        <div class="ceslogo">
+          <a href="index.html">
+            <img src="images/logo.png" alt="CES HomePage" />
+          </a>
+        </div>
+
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <div class="overlay-content">
+            <a href="#" target="_blank"
+              ><img id="ceslogo1" src="images/logo.png" alt="CES HomePage"
+            /></a>
+            <a href="teams.html" target="_self">TEAMS</a>
+            <a href="about.html" target="_self">ABOUT</a>
+            <a href="events.html" target="_self">EVENTS</a>
+            <a href="articles.html" target="_self">ARTICLES/BLOGS</a>
+            <a href="articles.html" target="_self">WORKSHOP</a>
+            <a href="alumni.html" target="_self">ALUMNI SECTION</a>
+            <a href="kaizen.html" target="_self">KAIZEN</a>
+            <a href="contactus.html" target="_self">CONTACT US</a>
+          </div>
+        </div>
+        <div class="menu" onclick="openNav()">
+          <img
+            id="menupic"
+            style="height: 40px; width: 40px; margin: 15px"
+            src="images/menu black.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Script -->
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+    </script>
+  </body>
+</html>

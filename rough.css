@@ -1,0 +1,30 @@
+body{
+  background-color: turquoise;
+}
+p{
+  color: black;
+  font-size: 80px;
+}
+.nav{
+  border: 2px solid red;
+  width: 90%;
+  height: 60px;
+  margin-left: 5%;
+}
+@media(max-width: 600px) {
+  body{
+    background-color: blue;
+  }
+    p{
+      font-size: 40px;
+    }
+  }
+@media(max-width: 400px) {
+  body{
+    background-color: rebeccapurple;
+  }
+    p{
+      font-size: 20px;
+    }
+  }
+

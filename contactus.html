@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/images/logo.png" />
+  <link rel="stylesheet" href="contactus.css">
+  <title>Contact Us</title>
+</head>
+<body>
+
+  <!-- Nav bar including logo and menu bar -->
+  <div class="container">
+      <div class="nav">
+      <div class="logo"><a href="index.html"><img
+        style="width: 130px; height: 130px"
+        src="images/logo.png"
+        alt=""
+      /></a></div>
+
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <div class="overlay-content">
+          <a href="#" target="_blank"
+            ><img id="ceslogo" src="images/logo.png" alt="CES HomePage"
+          /></a>
+          <a href="teams.html" target="_self">TEAMS</a>
+          <a href="about.html" target="_self">ABOUT</a>
+          <a href="events.html" target="_self">EVENTS</a>
+          <a href="articles.html" target="_self">ARTICLES/BLOGS</a>
+          <a href="articles.html" target="_self">WORKSHOP</a>
+          <a href="alumni.html" target="_self">ALUMNI SECTION</a>
+          <a href="kaizen.html" target="_self">KAIZEN</a>
+          <a href="contactus.html" target="_self">CONTACT US</a>
+        </div>
+      </div>
+      <div class="menu" onclick="openNav()">&#9776;</div>
+    </div>
+
+    <!-- Heading and paragraph about page -->
+    <div class="heading">
+      <h1 class="headin">LET’S GET TO KNOW EACH OTHER</h1>
+      <p class="para">
+        Fill in the details below and let’s get this conversation going
+      </p>
+    </div>
+
+    <!-- Form elements -->
+    <div class="main">
+      <div class="name">
+        <input type="text" class="form" placeholder="Name*">
+      </div>
+      <div class="insi">
+        <input type="text" class="form" placeholder="Institute/Organization*">
+      </div>
+      <div class="email">
+        <input type="text" class="form" placeholder="Email*">
+      </div>
+      <div class="msg">
+        <input type="text" id="msg" placeholder="Your Message...">
+      </div>
+
+    <!-- Remaning content -->
+      <div class="button">
+        <button class="btn">Send Message</button>
+      </div>
+      <div class="or">
+        <p class="Or">Or</p>
+      </div>
+      <div class="line">
+        <div class="contact">
+          <p class="cont">Contact us at :</p>
+        </div>
+        <div class="link">
+          <a href="https://www.linkedin.com/company/civil-engineering-society-svnit/mycompany/"><img class="logo1" src="images/linkedin round.png" target="_blank alt="LinkedIn"></a>  
+          <a href="mailto:ces@svnit.ac.in"><img class="logo1" src="images/gmail.png" target="_blank alt="Gmail"></a>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Footer -->
+  <div class="footer">
+      <div class="copy">
+        <img class="copyright" src="images/copyright.png" alt="" />
+      </div>
+      <div class="line1">
+        <img class="line1img" src="images/Line 1.png" alt="" />
+      </div>
+      <div class="ces"><p class="cesimg">CES</p></div>
+      <div class="line2">
+        <img class="line2img" src="images/Line 5.png" alt="" />
+      </div>
+      <div class="svnit">
+        <a
+          href="https://www.google.com/maps/dir/21.1612888,72.7919187/svnit+location/@21.167089,72.7806463,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3be04dec8b56fdf3:0x423b99085d26d1f9!2m2!1d72.7832836!2d21.1663287"
+          target="_blank"
+          ><img class="locimg" src="images/Vector.png" alt=""
+        /></a>
+        <p class="nits">Sardar Vallabhai National Institute Of Technology</p>
+      </div>
+      <div class="links">
+        <a href="https://www.facebook.com/ces.nitsurat/" target="_blank"
+          ><img class="logo" src="images/facebook.png" alt="Facebook"
+        /></a>
+        <a href="" target="_blank"
+          ><img class="logo" src="images/twitter.png" alt="Twitter"
+        /></a>
+        <a
+          href="https://www.linkedin.com/company/civil-engineering-society-svnit/mycompany/"
+          target="_blank"
+          ><img class="logo" src="images/linkedin round.png" alt="LinkedIn"
+        /></a>
+        <a href="https://www.instagram.com/ces.svnit/?hl=en" target="_blank"
+          ><img class="logo" src="images/instagram.png " alt="Instagram"
+        /></a>
+        <a href="mailto:ces@svnit.ac.in" target="_blank"
+          ><img class="logo" src="images/gmail.png" alt="Gmail"
+        /></a>
+  </div>
+<!-- Script -->
+<script>
+  function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+  }
+
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }
+</script>
+</body>
+</html>

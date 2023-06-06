@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background: #EAE5DF;
+    width: 100%;
+    height: 605px;
+    left: 0px;
+    top: 0px;
+}
+.nav{
+    display: flex;
+    height: 120px;
+}
+.menu{
+    margin-left: 940px;
+    margin-top: 30px;
+    height: 80px;
+    width: 100px;
+}
+#menupic{
+    height: 40px;
+    width: 40px;
+    margin: 15px;
+    cursor: pointer;
+}
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(50, 49, 49);
+    background-color: rgba(50, 49, 49, 1);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  #ceslogo1{
+    width: 100px;
+    height: 100px;
+    margin-left: -35px;
+    margin-top: -100px
+  }
+  .overlay-content {
+    position: relative;
+    margin-top: 70px;
+    width: 100%;
+    text-align: start;
+    margin-left: 40px;
+  }
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #FFFFFF;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .overlay a:hover,
+  .overlay a:focus {
+    color: #FA6041;
+  }
+
+  .overlay .closebtn {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 1100px;
+    font-size: 60px;
+  }
+.content
+{
+    margin-left: 130px;
+    width: 80%;
+    height: 220px;
+    font-family: 'Roslindale Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+.updates{
+    margin-top: 80px;
+    margin-left: 375px;
+    width: 500px;
+    height: 100px;
+}
+#updt{
+    background: #000000;
+    height: 70px;
+    width: 80%;
+    cursor: pointer;
+    margin-top: 13px;
+    margin-left: 55px;
+    border-radius: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 58px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.vision{
+    background: #323131;
+    width: 100%;
+    height: 680px;
+    top: 0px;
+    left: 0px;
+}
+.pic{
+    height: 380px;
+    width: 400px;
+    margin-left: 430px;
+}
+.enggpic{
+    padding-top: 50px;
+    height: 350px;
+    width: 370px;
+}
+.heading{
+    height: 170px;
+    width: 490px;
+    margin-left: 380px;
+    font-family: 'Roslindale Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 144px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.content1{
+    height: 150px;
+    margin-left: 120px;
+    width: 80%;
+    font-family: 'Roslindale Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.mission{
+    background: #EAE5DF;
+    width: 100%;
+    height: 680px;
+    left: 0px;
+    top: 0px;
+}
+.pic1{
+    height: 400px;
+    width: 400px;
+    margin-left: 430px;
+}
+.enggpic1{
+    padding-top: 65px;
+    height: 400px;
+    width: 370px;
+}
+.heading1{
+    height: 165px;
+    width: 490px;
+    margin-left: 380px;
+    font-family: 'Roslindale Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 144px;
+    text-align: center;
+    color: #000000;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.content2{
+    height: 150px;
+    margin-left: 120px;
+    width: 85%;
+    font-family: 'Roslindale Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.svnit{
+    background: #323131;
+    width: 100%;
+    height: 720px;
+    left: 0px;
+    top: 0px;
+}
+.pic2{
+    height: 380px;
+    width: 400px;
+    margin-left: 478px;
+}
+.enggpic2{
+    padding-top: 50px;
+    height: 330px;
+    width: 300px;
+}
+.heading2{
+    height: 180px;
+    width: 490px;
+    margin-left: 380px;
+    font-family: 'Roslindale Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 144px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.content3{
+    height: 150px;
+    margin-left: 120px;
+    width: 80%;
+    font-family: 'Roslindale Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.footer{
+    display: flex;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    background: #EAE5DF;
+}
+.copy{
+    width: 85px;
+    height: 118px;
+}
+.copyright{
+    margin-top: 12px;
+    margin-left: 14px;
+    height: 100px;
+}
+.line1{
+    height: 118px;
+    width: 150px;
+}
+.line1img{
+    margin-top: 65px;
+    width: 180px;
+}
+.ces{
+    margin-left: 30px;
+    height: 118px;
+    width: 165px;
+}
+.cesimg{
+margin-left: 14px;
+margin-top: 52px;
+text-decoration: solid;
+font-family: 'Roslindale Text';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+}
+.line2{
+    height: 118px;
+    width: 100px;
+}
+.line2img{
+    margin-top: 18px;
+    margin-left: 38px;
+}
+.locimg{
+    cursor: pointer;
+    margin-top: 52.5px;
+    margin-left: 30px;
+    width: 20px;
+    height: 24px;
+
+}
+.svnit1{
+    display: flex;
+    height: 118px;
+    width: 500px;
+}
+.nits{
+    position: absolute;
+    margin-top: 52.5px;
+    margin-left: 70px;
+    font-family: 'Roslindale Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+.links{
+    margin-top: 52px;
+    margin-left: 320px;
+    height: 70px;
+    width: 420px;
+}
+.logo{
+    padding-left: 14px;
+    width: 36px;
+    height: 22px;
+    cursor: pointer;
+    border-bottom: none;
+}
